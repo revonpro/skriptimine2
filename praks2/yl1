@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#script, mis väljastab kasutajale tervitava teksti "Tere, kasutajanimi !"
+
+greet="Tere, $USER"
+
+echo $greet
