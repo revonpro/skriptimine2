@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Kas arv paaris või paaritu
+#
+echo -n "Siesta suvaline täisarv"
+read arv
+jaak=$(($arv % 2))
+#
+if [ $jaak = 0 ]
+then
+	echo "Arv on paaris"
+else
+	echo "Arv on paaritu"
+fi
