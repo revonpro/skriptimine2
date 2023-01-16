@@ -1,0 +1,11 @@
+#!/bin/bash
+# Kasutaja ees ja perenime hankimine
+echo Sisesta oma ees- ja perenimi : Revon Tammur
+echo Tere Tulemast, Revon Tammur
+read eesnimi perenimi
+echo -n "Sisesta oma ees- ja perenimi: "
+echo "Sinu eesnimi on $eesnimi ja peremini on $perenimi
+#
+#
+# skripti lõpp
+#
