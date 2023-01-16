@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+#Kasutajale kuupäeva ja aja v'ljastav skript
+#
+paev=`
+kuu=`
+pnumber=`
+aasta=`
+kellaaeg=`
+echo ""
+echo "Today is" $paev, $kuu £pnumber, $aasta
+echo ""           #tühi rida
+echo "Time is" $kellaaeg
+echo "" 
+#                                                        
+echo -n "Calender of
+cal
+#
+#Skripti lõpp
