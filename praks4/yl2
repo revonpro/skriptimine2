@@ -1,0 +1,20 @@
+#!/bin/bash
+#Script bussieksursioonist
+#
+echo "Sisesta reisijate arv"
+read resisijad
+echo "Siesta palju kohti on bussis"
+read bussi_kohad
+#
+bussid=$(($reisijad / $bussi_kohad))
+#
+maha_jaanud=$(($reisijad % $bussi_kohad))
+#
+if [ maha_jaanud > 0 ]
+then
+	bussid=$(($bussid + 1))
+fi
+#
+#vastuse väljastamine
+#
+echo "Kokku on vaja $bussid bussi"
