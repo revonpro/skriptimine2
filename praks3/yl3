@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+#
+echo -n "Siestage ainepunktide arv: "
+read aparv
+echo -n "Siestage nädalate arv: "
+read narv
+eap=26
+aeg=$(($aparv * $eap))
+ajascale=`echo "scale=1;$aeg/$narv" | bc`
+aegymar=`echo "($ajascale+0.9)/1" | bc`
+echo $aegymar
+#
+#
+
